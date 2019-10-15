@@ -8,7 +8,7 @@ server.use(express.json());
 //Request:
 //Query params = ?teste=1 - req.query
 //Route params = /projects/1 - req.params
-//Req body = { "name": "Diego", "email": "gregori@pixeltech.com.br" }
+//Req body = { "name": "Gregori", "email": "gregori@pixeltech.com.br" }
 
 const projects = [];
 let counter = 0;
